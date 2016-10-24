@@ -17,6 +17,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     private static  final  String TAG="FIREBASE AUTH";
@@ -120,7 +121,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mAuth.signOut();
         updateUI(null);
     }
-    // for sigin
+    // for signin
 
     public  void singIn(String email, String password){
         if(!validateForm()){
@@ -167,6 +168,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     }
 
+    //validation forms
     public boolean validateForm(){
         boolean valid=true;
 
@@ -190,6 +192,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         return valid;
     }
 
+    //display progress Dialog
     public void showProgressDialog() {
         if (mProgressDialog == null) {
             mProgressDialog = new ProgressDialog(this);
@@ -200,6 +203,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mProgressDialog.show();
     }
 
+    // hide progress dialog
     public void hideProgressDialog() {
         if (mProgressDialog != null && mProgressDialog.isShowing()) {
             mProgressDialog.dismiss();
