@@ -2,7 +2,7 @@
 Android application login using custom email and password in firebase
 
 ---
-#About Firebase
+### About Firebase
 
 Firebase gives you the tools to develop high-quality apps, grow your user base,
 and earn more money. We cover the essentials so you can monetize your business and focus on your users.
@@ -20,10 +20,10 @@ Here is the link of [Firebase Console](https://console.firebase.google.com/) , w
 ```$ git clone https://github.com/firebase/quickstart-android.git```
 
 ---
-###About Me
+### About Me
 
-I am an android engineer, currently located in Fremont, CA.
+I am an android engineer, currently located in Irving, TX.
 
-If you have any idea and wann chat with me, please visit my blog [PrAndroid](http://www.prandroid.com) and [CodingWorkspace](http://www.codingworkspace.com). 
-More about me please visit my personal website:[DHARMAKSHETRI.COM.NP](http://dharmakshetri.com.np/).
+If you have any idea and wanna chat with me, please visit my blog [PrAndroid](http://www.prandroid.com) and [CodingWorkspace](http://www.codingworkspace.com). 
+More about me please visit my personal website:[DHARMAKSHETRI.ME](http://dharmakshetri.me/).
 
